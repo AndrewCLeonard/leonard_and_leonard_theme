@@ -1,0 +1,67 @@
+/*
+Theme Name: Law Office Theme
+Theme URI: 
+Author: Andrew Leonard
+Author URI: https://www.LeonardCodes.com
+Description: A theme for small to medium sized law firms.
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Law_Office_Theme
+Tags: law, lawyer, attorney, legal, law firm, law office, legal office, legal firm, legal services, legal help, legal advice, legal consultation, legal aid, legal assistance, legal expert, legal professional, legal adviser, legal counselor, legal representative, legal specialist, legal support, legal office, legal practice, legal bureau, legal company, legal corporation, legal organization, legal institution, legal office, legal business, legal department, legal partnership, legal service, legal team, legal aid, legal assistance, legal expert, legal professional, legal adviser, legal counselor, legal representative, legal specialist, legal support, legal office, legal practice, legal bureau, legal company, legal corporation, legal organization, legal institution, legal office, legal business, legal department, legal partnership, legal service, legal team, legal aid, legal assistance, legal expert, legal professional, legal adviser, legal counselor, legal representative, legal specialist, legal support, legal office, legal practice, legal bureau, legal company, legal corporation, legal organization, legal institution, legal office, legal business, legal department, legal partnership, legal service, legal team
+*/
+
+:root {
+  /* Base Colors */
+  --base-one: #F5F5F5; /* Off-White */
+  --base-two: #E0E0E0; /* Light Grey */
+  --base-three: #333333; /* Dark Grey */
+
+  /* Contrast Colors */
+  --contrast-one: #002A4E; /* Dark Navy */
+  --contrast-secondary: #005792; /* Medium Blue */
+  --contrast-three: #4A90E2; /* Soft Blue */
+
+  /* Accent Colors */
+  --accent-one: #76949F; /* Slate Grey */
+  --accent-two: #B6C8D6; /* Pale Blue Grey */
+  --accent-three: #DAE3E5; /* Lightest Blue Grey */
+  --accent-four: #CCD1D9; /* Neutral Grey */
+  --accent-five: #F2F4F5; /* Almost White */
+
+  /* Additional Colors */
+  --additional-olive-green: #6E7F58; /* Muted Green */
+  --additional-sand-beige: #D2C3A3; /* Warm Beige */
+  --additional-charcoal-brown: #504A42; /* Warm Taupe */
+  --additional-rust-red: #A63E1B; /* Brick Red */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 30px;
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  /* Styles for small devices and up */
+}
+
+@media (min-width: 768px) {
+  /* Styles for medium devices and up */
+}
+
+@media (min-width: 992px) {
+  /* Styles for large devices and up */
+}
+
+@media (min-width: 1200px) {
+  /* Styles for extra large devices */
+}
